@@ -1,0 +1,224 @@
+.navbar-container {
+  
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 6rem 0;
+  @media only screen and (max-width: $bp-small) {
+    // margin: 4rem 0;
+    margin: 2rem 0 4rem 0;
+  }
+}
+
+.navbar-logo{
+  position: relative;
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: 1.2px;
+  display: inline-block;
+  background-image: linear-gradient(to right,var(--color-white), var(--color-primary));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+///////////////////
+/// MAIN NAV
+.main-nav{
+  margin-left: auto;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar-list{
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  // cursor: pointer;
+  font-size: inherit;
+  //gap: 3rem;
+  
+  &__item{
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: 0
+  }
+  &__item:hover{
+    color:var(--color-primary);
+    font-weight: 400;
+    letter-spacing: 0.47px
+  }
+  &__item__active{
+    text-decoration: none;
+    color:var(--color-primary);
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 0.47px
+  }
+  &__logo{
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    fill:var(--color-primary);
+  }
+  &__logo:hover{
+    fill:var(--color-primary);
+  }
+}
+////////////////////
+/// SOCIAL
+.social{
+display: flex;
+}
+
+.social-link{
+  display: inline-flex;
+  &:not(:last-child){
+    margin-right: 1.2rem;
+    margin-left: 2rem;
+  }
+  &__icon{
+    height: 2.7rem;
+    width: 2.7rem;
+    fill: var(--color-white);
+    transition: all .3s;
+  }
+  &:hover &__icon{
+    fill: var(--color-primary);
+  }
+}
+
+
+/////////////////////////
+/// BUTTON OPEN CLOSE
+/////////////
+.nav-mob {
+  display: none;
+  &__checkbox {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $bp-small) {
+  .nav-mob{
+    display: inline-flex;
+    margin-left: auto;
+    &__button {
+      height: 7rem;
+      z-index: 2;
+      pointer-events: all !important;
+    }
+    &__icon {
+      position: relative;
+      margin-top: 3.5rem;
+      &,
+      &::before,
+      &::after {
+        width: 3rem;
+        height: 2px;
+        background-color: var(--color-white);
+        display: inline-block;
+      }
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        transition: all 0.2s;
+      }
+      &::before {
+        top: -0.8rem;
+      }
+      &::after {
+        top: 0.8rem;
+      }
+    }
+    &__button:hover &__icon::before {
+      top: -1rem;
+    }
+    &__button:hover &__icon::after {
+      top: 1rem;
+    }
+    &__checkbox:checked + &__button &__icon {
+      background-color: transparent;
+    }
+    &__checkbox:checked + &__button &__icon:before {
+      transform: rotate(135deg);
+      top: 0;
+    }
+    &__checkbox:checked + &__button &__icon:after {
+      transform: rotate(-135deg);
+      top: 0;
+    }
+  }
+  //////////////////////////////////////////////////////////////
+  
+  .main-nav {
+    position: fixed;
+    flex-direction: column;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    ////////////////////
+    ///  backdrop-filter
+    background-color: #29374ad8;
+    backdrop-filter: blur(10px);
+    ////////////
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    ///////////////////
+    font-size: 1.8rem;
+
+  }
+
+////////////////////
+/// OPEN
+////////////////////
+  .open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(50%);
+    z-index: 2;
+    position: fixed;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top:20%;
+    //bottom: 3rem;
+    right: 55%;
+    align-items: flex-end;
+    gap: 3rem;
+  }
+  .social{
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .social-link{
+    &:not(:last-child){
+      margin-right: 0;
+      margin-left: 0;
+    }
+    &__icon{
+      height:3.7rem;
+      width: 3.7rem;
+    }
+  }
+  
+}
+

@@ -1,0 +1,101 @@
+//////////////////////////////////
+// BTN HOME PAGE red yellow
+//////////////////////////////////
+.btn {
+  font-size: 2rem;
+  background-color: var(--color-red);
+  display: inline-block;
+  padding: .6rem 2rem;
+  position: relative;
+  border-radius: var(--border-radius-default);
+  overflow: hidden;
+  
+  &__text:link,
+  &__text:visited{
+    
+    position: relative;
+    color: var(--color-white);
+    transition: all .3s;
+    letter-spacing: 1.6px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-primary);
+    transform: scaleX(0);
+    transition: transform 0.4s, width 0.8s cubic-bezier(1, 0, 0, 1) 0.4s, background-color 0.3s;
+  }
+  &:hover::before {
+    width: 100%;
+    transform: scaleX(1);
+  }
+  &:hover &__text {
+    color: var(--color-black);
+    z-index: 999;
+  }
+}
+
+//////////////////////////////////
+// BTN-LINK yellow (modal projects)
+//////////////////////////////////
+.btn-link-color {
+  display: inline-block;
+  &:link,
+  &:visited {
+    text-decoration: none;
+    cursor: pointer;
+
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 3rem;
+    letter-spacing: .6px;
+    text-transform: lowercase;
+
+    background-color: var(--color-primary);
+    color: var(--main-container);
+    
+    border-radius: var(--border-radius-default);
+  }
+}
+//////////////////////////////////
+// BTN COLORED yellow (info)
+//////////////////////////////////
+.btn-color {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.5rem 3rem;
+  letter-spacing: .6px;
+  text-transform: lowercase;
+
+  background-color: var(--color-primary);
+  color: var(--main-container);
+  
+  border-radius: var(--border-radius-default);
+}
+
+///////////////////////
+// BTN CLOSE MODAL
+///////////////////////
+.btn-close {
+  border: none;
+  background: transparent;
+  display: inline-flex;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: -1rem;
+  &__icon {
+    width: 5rem;
+    height: 5rem;
+  }
+}

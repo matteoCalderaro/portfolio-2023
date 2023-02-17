@@ -1,0 +1,71 @@
+/*
+COLORS
+
+- Tints:
+#c0e4ff
+
+- Main : #a5d8ff
+- Shades :
+#84adcc
+#7397b3
+
+*/
+
+
+
+
+
+
+
+.container-grid {
+  /* position: relative; */
+  padding:10px 70px 70px;
+  height: 500px;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  z-index: -1;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.box-fixed {
+  background-color: #ddddc6;
+  padding: 20px;
+  align-self: start;
+}
+.box-grid {
+  overflow-x: auto;
+  
+  padding: 0  15px 20px 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: #c2c25b;
+  
+}
+.img-container{
+  overflow: hidden;
+}
+.card-img {
+  width: 100%;
+  transform: scale(1.15);
+}
+.card-description{
+  padding: 15px;
+}
+
+
+
+.box-fixed-jobs {
+  background-color: #b7c5e1;
+  padding: 20px;
+  align-self: start;
+}
+
+.card-jobs{
+  background-color: #b7c5e1;
+}

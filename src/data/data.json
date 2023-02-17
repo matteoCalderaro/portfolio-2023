@@ -1,0 +1,197 @@
+{
+  "certificates": [
+    {
+      "id": 1,
+      "topic": "development",
+      "file": "img/certificates/2022-certificate-fullstack-aulab-calderaro.jpg",
+      "title": "Bootcamp fullstack",
+      "subtitle":"Aulab Hackademy ",
+      "dates":[
+        {"ore":"400"},
+        {"conseguito":"2022.01"}
+      ],
+      "location": "Italia",
+      "labels":["html","css","javascript","php","laravel","vue.js","bootstrap","git"],
+      "text": "Corso intensivo di formazione a distanza. Fondamentali della programmazione web: HTML, CSS, PHP e JS nelle versioni vanilla. Focus principale su framework Laravel e introduzione a Vue.js. Utilizzo di piattaforme di versionamento per lavoro da remoto in team di sviluppo organizzati con metodologie agili."
+    },
+    {
+      "id": 2,
+      "topic": "development",
+      "file": "img/certificates/2022-certificate-fullstack-calderaro.jpg",
+      "title": "Fullstack open",
+      "subtitle":"University of Helsinki",
+      "dates":[
+        {"ore":"60"},
+        {"conseguito":"2022.07"}
+      ],
+      "location": "Norvegia",
+      "labels":["react","redux","node.js","mongoDB"],
+      "text": "Corso completo per lo sviluppo web basato su Javascript. Progettazione di single page application in ReactJS con utilizzo di REST APIs gestite da Node.js",
+      "list":["react functional components","redux per lo state management","programmazione asincrona", "database MongoDB"]
+    },
+    {
+      "id": 3,
+      "topic": "development",
+      "file": "img/certificates/2022-certificate-fullstack-graphql-calderaro.jpg",
+      "title": "GraphQL",
+      "subtitle":"University of Helsinki",
+      "dates":[
+        {"ore":"40"},
+        {"conseguito":"2022.09"}
+      ],
+      "location": "Norvegia",
+      "labels":["react","node.js","graphQL","mongoDB"],
+      "text": "Integrazione al corso FULLSTACK OPEN con l'utilizzo di server GrapghQL in sostituzione a server REST API",
+      "list": ["schemas e queries", "resolvers e mutations","gestione della cache","database MongoDB" ]
+    },
+    {
+      "id": 5,
+      "topic": "development",
+      "file": "img/certificates/2023-certificate-udemy-responsive-websites-calderaro.jpg",
+      "title": "Responsive websites",
+      "subtitle":"Udemy",
+      "dates":[
+        {"ore":"40"},
+        {"conseguito":"2023.01"}
+      ],
+      "location": "Portogallo",
+      "labels":["html","css"],
+      "text": "Progettazione di responsive layout con utilizzo di HTML e vanilla CSS. Layout design uni- bidimensionale con utilizzo delle proprietà flexbox e grid. Design desktop-first scalato responsive a mezzo media queries..."
+    },
+    {
+      "id": 6,
+      "topic": "development",
+      "file": "img/certificates/2023-certificate-udemy-advanced-css-calderaro.jpg",
+      "title": "Responsive websites",
+      "subtitle":"Udemy",
+      "dates":[
+        {"ore":"40"},
+        {"conseguito":"2023.02"}
+      ],
+      "location": "Portogallo",
+      "labels":["html","css","sass"],
+      "text": "Dichiarazioni CSS ottimizzate grazie al preprocessore SAAS. Utilizzo della metodologia BEM per il miglior mantenimento e riutilizzo del codice. Definizione layout con proprietà flexbox e grid. Design desktop-first scalato responsive a mezzo media queries. Animazioni, gestione SVG, ottimizzazione immagini..."
+    },
+    {
+      "id": 4,
+      "topic": "development",
+      "file": "img/certificates/2023-certificate-udemy-mern-app-calderaro.jpg",
+      "title": "MERN Stack Course 2022",
+      "subtitle":"Udemy",
+      "dates":[
+        {"ore":"40"},
+        {"conseguito":"2023.01"}
+      ],
+      "location": "Stati Uniti",
+      "labels":["react","node.js","mongoDb"],
+      "text": "Corso fullstack per lo sviluppo di single page application basate su React a Nodejs",
+      "list": ["authentication management", "completo CRUD su database MongoDB","react context per lo state management" ]
+    },
+    {
+      "id": 6,
+      "topic": "marketing",
+      "file": "img/certificates/2020-certificate-ubspot-social-media-calderaro.png",
+      "title": "Social media",
+      "subtitle":"Hubspt Academy",
+      "dates":[
+        {"ore":"40"},
+        {"conseguito":"2020.07"}
+      ],
+      "location": "Stati Uniti",
+      "labels":["social", "advertising"],
+      "text": "Costruire una efficace social media strategy, basata sull'ascolto, sulla content curation, sulla fiducia. Estenderne la copertura a mezzo advertising monitorandone il ROI..."
+    },
+    {
+      "id": 7,
+      "topic": "marketing",
+      "file": "img/certificates/2020-certificate-ubspot-inbound-marketing-calderaro.png",
+      "title": "Inbound marketing",
+      "subtitle":"Hubspt Academy",
+      "dates":[
+        {"ore":"40"},
+        {"conseguito":"2020.05"}
+      ],
+      "location": "Stati Uniti",
+      "labels":["inbound","automation"],
+      "text": "Lead generation and nurturing durante le fasi del buyer's journey anche in ottica di marketing automation..."
+    },
+    {
+      "id": 8,
+      "topic": "marketing",
+      "file": "img/certificates/analytics.png",
+      "title": "Google analytics",
+      "subtitle":"Google Academy",
+      "dates":[
+        {"ore":"40"},
+        {"conseguito":"2021.04"}
+      ],
+      "location": "Stati Uniti",
+      "labels":["analytics","gtm"],
+      "text": "Raccolta dati e creazione piani di misurazione con utilizzo di:",
+      "list": ["dimensioni e metriche personalizzate", "monitoraggio degli eventi","segmenti di pubblico","Google Tag Manager per l'aggiornamento dei codici di tracciamento..." ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 3,
+      "file": "img/projects/prog-1.jpg",
+      "title": "omnifood",
+      "subtitle":"Landing page responsive layout",
+      "labels":["html","css","javascript"],
+      "text": "HTML e vanilla CSS. Javascript per la movimentazione del menu mobile e dello scrool",
+      "link": "https://omnifood-matteo.netlify.app/",
+      "list": ["flexbox e grid", "desktop-first scalato a mobile a mezzo media queries" ]
+    },
+    {
+      "id": 4,
+      "file": "img/projects/prog-2.jpg",
+      "title": "outdoors",
+      "subtitle":"Landing page responsive layout",
+      "labels":["html","css","sass","javascript"],
+      "text": "HTML e CSS con utilizzo del preprocessore SASS. Javascript per la movimentazione del menu mobile e dello scrool",
+      "link": "https://outdoor-matteo.netlify.app/",
+      "list": ["realtive units", "variabili sass e variabili css", "pseudo classi e pseudo elementi"]
+    },
+    {
+      "id": 5,
+      "file": "img/projects/prog-6.jpg",
+      "title": "nexter",
+      "subtitle":"Landing page responsive layout",
+      "labels":["html","css","sass"],
+      "text": "Landing page di soli HTML e CSS con utilizzo del preprocessore SASS",
+      "link": "https://nexter-matteo.netlify.app/",
+      "list": ["desktop-first scalato a mobile con impiego quasi esclusivo del solo grid system (no media queries)" ]
+    },
+    {
+      "id": 1,
+      "file": "img/projects/prog-4.png",
+      "title": "jobify",
+      "subtitle":"Applicazione Fullstack",
+      "labels":["react","node.js","mongoDb"],
+      "text": "Autenticazione nelle due diverse soluzioni (localstorage e cookie-based)",
+      "link": "https://jobify-matteo.netlify.app/",
+      "list": ["react context per lo state management","rotte protette", "completo CRUD su database MongoDB",  "paginazione", "css con styled-components"]
+    }
+    ,
+    {
+      "id": 2,
+      "file": "img/projects/prog-5.png",
+      "title": "block notes",
+      "subtitle":"Applicazione Frontend",
+      "labels":["react"],
+      "text": "Applicazione frontend che persiste i dati in localstorage",
+      "link": "https://matteocalderaro.github.io/block-notes/",
+      "list": ["completo CRUD","react context per lo state management","fetch dati da API esterna (meteo)"]
+    }
+  ],
+  "obsolete":[{
+    "id": 6,
+    "file": "img/projects/prog-3.png",
+    "title": "trillo",
+    "subtitle":"Landing page responsive layout",
+    "labels":["html","css","sass"],
+    "text": "Landing page di soli HTML e CSS con utilizzo del preprocessore SASS",
+    "link": "https://trillo-matteo.netlify.app/",
+    "list": ["desktop-first scalato a mobile a mezzo media queries" ]
+  }]
+}

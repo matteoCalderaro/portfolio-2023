@@ -1,0 +1,31 @@
+///////////////////////
+/// MODAL
+//////////////////////
+
+@keyframes moveInLeft {
+  0% {backdrop-filter: none;background-image: none; transform: translateX(-100rem)}
+  99.99999% {backdrop-filter: none; background-image: none;}
+  100% {transform: translateX(0);}
+  
+}
+@keyframes moveOutRight {
+  0% {transform: translateX(-100vw);background: transparent;}
+  90% {transform: translateX(100vw); display: none}
+}
+@keyframes moveOutRightMobile {
+  0% {transform: translateX(-100vw);}
+  90% {transform: translateX(100vw); display: none}
+}
+
+///////////////////////
+/// HEADING
+//////////////////////
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
