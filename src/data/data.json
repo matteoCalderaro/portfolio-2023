@@ -169,7 +169,7 @@
       "subtitle":"Applicazione Fullstack",
       "labels":["react","node.js","mongoDb"],
       "text": "Autenticazione nelle due diverse soluzioni (localstorage e cookie-based)",
-      "link": "https://jobify-matteo.netlify.app/",
+      "link": "https://jobify.fly.dev/",
       "list": ["react context per lo state management","rotte protette", "completo CRUD su database MongoDB",  "paginazione", "css con styled-components"]
     }
     ,
