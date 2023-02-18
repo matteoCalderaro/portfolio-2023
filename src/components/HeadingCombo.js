@@ -20,10 +20,10 @@ const HeadingCombo = ({ counter, stopToCount }) => {
     intervalID.current = setInterval(() => {
       // if (value < 700 && !counter) {
       if (value < 700) {
-        console.log('Set Interval');
+        //console.log('Set Interval');
         setValue((value) => value + 1);
       } else {
-        console.log('Clear Interval');
+        //console.log('Clear Interval');
         clearInterval(intervalID.current);
         stopToCount(700);
         //setPlus('+');

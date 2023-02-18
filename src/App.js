@@ -15,8 +15,8 @@ const App = () => {
   const [content, setContent] = useState('');
   const [style, setStyle] = useState('hide--right');
   const [counter, setCounter] = useState(null);
-  console.log(isVisible);
-  console.log(style);
+  // console.log(isVisible);
+  // console.log(style);
   const stopToCount = (value) => {
     setCounter(value);
   };

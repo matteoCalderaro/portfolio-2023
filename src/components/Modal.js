@@ -7,9 +7,8 @@ import { UilTimes } from '@iconscout/react-unicons';
 import { useWindowSize } from './../components/useWindowSize';
 
 const Modal = ({ content, style, setStyle }) => {
-  console.log(style);
+  //console.log(style);
   const myRef = useRef(null);
-  console.log(style);
 
   useEffect(() => {
     myRef.current.scrollTo(0, 0);

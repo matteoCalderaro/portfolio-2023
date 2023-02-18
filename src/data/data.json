@@ -128,7 +128,7 @@
       "location": "Stati Uniti",
       "labels":["analytics","gtm"],
       "text": "Raccolta dati e creazione piani di misurazione con utilizzo di:",
-      "list": ["dimensioni e metriche personalizzate", "monitoraggio degli eventi","segmenti di pubblico","Google Tag Manager per l'aggiornamento dei codici di tracciamento..." ]
+      "list": ["dimensioni e metriche personalizzate", "monitoraggio degli eventi","segmenti di pubblico per il remarketing","Google Tag Manager per l'aggiornamento dei codici di tracciamento..." ]
     }
   ],
   "projects": [
@@ -160,7 +160,7 @@
       "labels":["html","css","sass"],
       "text": "Landing page di soli HTML e CSS con utilizzo del preprocessore SASS",
       "link": "https://nexter-matteo.netlify.app/",
-      "list": ["desktop-first scalato a mobile con impiego quasi esclusivo del solo grid system (no media queries)" ]
+      "list": ["desktop-first scalato a mobile sfruttando le proprietà native del grid system" ]
     },
     {
       "id": 1,
