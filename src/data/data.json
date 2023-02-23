@@ -40,8 +40,8 @@
         {"conseguito":"2022.09"}
       ],
       "location": "Norvegia",
-      "labels":["react","node.js","graphQL","mongoDB"],
-      "text": "Integrazione al corso FULLSTACK OPEN con l'utilizzo di server GrapghQL in sostituzione a server REST API",
+      "labels":["react","node.js","GraphQL","mongoDB"],
+      "text": "Integrazione al corso FULLSTACK OPEN con l'utilizzo di server GraphQL in sostituzione a server REST API",
       "list": ["schemas e queries", "resolvers e mutations","gestione della cache","database MongoDB" ]
     },
     {
