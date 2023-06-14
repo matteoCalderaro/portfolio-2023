@@ -1,6 +1,35 @@
 {
   "certificates": [
     {
+      "id": -1,
+      "topic": "development",
+      "file": "img/certificates/2023-certificate-udemy-angular-core-calderaro.jpg",
+      "title": "angular core deep dive",
+      "subtitle":"Udemy",
+      "dates":[
+        {"ore":"9"},
+        {"conseguito":"2023.04"}
+      ],
+      "location": "Portogallo",
+      "labels":["angular","typescript"],
+      "text": "Ampia panoramica sulle funzionalità più comunemente utilizzate di Angular, fino agli argomenti più avanzati come:",
+      "list": ["change detection", "style isolation", "dependency injection", "content projection","lifecycle hooks","custom modules","custom pipes","..."]
+    },
+    {
+      "id": 0,
+      "topic": "development",
+      "file": "img/certificates/2023-certificate-udemy-angular-RxJs-calderaro.jpg",
+      "title": "rxjs in practice",
+      "subtitle":"Udemy",
+      "dates":[
+        {"ore":"4.5"},
+        {"conseguito":"2023.06"}
+      ],
+      "location": "Portogallo",
+      "labels":["angular","typescript", "RxJs"],
+      "text": "Panoramica sul concetto di programmazione reattiva a confronto con quella imperativa. Visione genearale della libreria RxJS riguardo ai concetti chiave come Streams, Observables e Subjects. Analisi dettagliata dei più comuni Operators tramite lettura dei diagrammi marbe diagrams. Creazione di custom Observable e implementazione di uno store con l'impiego di Subjects."
+    },
+    {
       "id": 1,
       "topic": "development",
       "file": "img/certificates/2022-certificate-fullstack-aulab-calderaro.jpg",
