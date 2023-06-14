@@ -39,9 +39,10 @@ const Profile = () => {
                 script JS. Un giorno ho deciso, e grazie ad un bootcamp ho mosso
                 i primi passi con i linguaggi di programmazione per poi correre
                 con il framework Laravel. Da autodidatta ho affrontato
-                l'ecosistema javascript con React e Node.js. Ho realizzato
-                questo sito in React per presentarvi la mia preparazione e
-                alcuni progetti&nbsp;.&nbsp;.&nbsp;.
+                l'ecosistema javascript con React e Node.js. In questo momento
+                mi sto dedicando ad Angular. Ho realizzato questo sito in React
+                per presentarvi la mia preparazione e alcuni
+                progetti&nbsp;.&nbsp;.&nbsp;.
               </p>
             </div>
           </div>

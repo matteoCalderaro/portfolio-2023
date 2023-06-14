@@ -38,7 +38,7 @@ const Info = () => {
           </div>
           <a
             className="item cv"
-            href="https://drive.google.com/file/d/1UaAMMVgabC8jGtow-qjOhT9AG2fdE3oL/view?usp=sharing"
+            href="https://drive.google.com/file/d/1K2j4F43U3cc08A8zZq8J1eVnHXoHwhvp/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
