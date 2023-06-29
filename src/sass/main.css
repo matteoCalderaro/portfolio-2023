@@ -234,6 +234,41 @@ body {
   }
 }
 
+.carousel-img-new {
+  width: 100%;
+  height: 200px;
+  border-radius: var(--border-radius-default);
+  background-size: cover;
+  cursor: pointer;
+  background-position: center;
+  position: relative;
+}
+@media only screen and (max-width: 37.44em) {
+  .carousel-img-new {
+    height: 220px;
+  }
+}
+
+.carousel-img-new::after {
+  content: "new";
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: var(--color-primary);
+  color: #333;
+  padding: 0.8rem 5.2rem;
+  position: absolute;
+  top: 5%;
+  right: -14%;
+  transform: rotate(45deg);
+}
+@media only screen and (max-width: 37.44em) {
+  .carousel-img-new::after {
+    top: 5%;
+    right: -11%;
+  }
+}
+
 .carousel-caption {
   position: absolute;
   top: 50%;
@@ -248,8 +283,7 @@ body {
   border: 1px solid var(--color-black);
   opacity: 0;
   transition: all 0.5s;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,6 +320,10 @@ body {
   .swiper-button-prev {
     display: none;
   }
+}
+
+.swiper-slide {
+  overflow-x: clip;
 }
 
 .swiper-button-prev {
@@ -933,8 +971,7 @@ b, .initial {
   width: 100%;
   height: 100vh;
   position: fixed;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   z-index: 2;
 }
 @supports ((-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))) {

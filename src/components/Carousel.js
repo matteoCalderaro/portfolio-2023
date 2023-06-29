@@ -43,7 +43,7 @@ const Carousel = ({
           {certificates.map((item) => (
             <SwiperSlide key={item.id}>
               <div
-                className="carousel-img"
+                className={item.new ? 'carousel-img-new' : 'carousel-img'}
                 onClick={() => {
                   setModalContent(item);
                   setIsVisible(true);
