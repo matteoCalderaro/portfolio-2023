@@ -6,6 +6,8 @@ import logos from '../Logos.svg';
 const Profile = () => {
   const iconName = [
     'react',
+
+    'angular',
     'laravel',
     'javaScript',
     'html',
