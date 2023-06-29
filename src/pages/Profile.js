@@ -9,11 +9,11 @@ const Profile = () => {
 
     'angular',
     'laravel',
-    'javaScript',
-    'html',
-    'css',
+    // 'javaScript',
+    // 'html',
+    // 'css',
     'node',
-    'sass',
+    // 'sass',
   ];
   return (
     <>
