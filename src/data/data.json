@@ -1,7 +1,7 @@
 {
   "certificates": [
     {
-      "id": -2,
+      "id": -4,
       "topic": "development",
       "file": "img/certificates/2023-certificate-udemy-angular-core-calderaro.jpg",
       "title": "angular core deep dive",
@@ -17,7 +17,7 @@
       "new":true
     },
     {
-      "id": -1,
+      "id": -3,
       "topic": "development",
       "file": "img/certificates/2023-certificate-udemy-angular-RxJs-calderaro.jpg",
       "title": "rxjs in practice",
@@ -32,7 +32,7 @@
       "new":true
     },
     {
-      "id": 0,
+      "id": -2,
       "topic": "development",
       "file": "img/certificates/2023-certificate-udemy-angular-Forms-calderaro.jpg",
       "title": "angular forms in depth",
@@ -40,6 +40,38 @@
       "dates":[
         {"ore":"7"},
         {"conseguito":"2023.06"}
+      ],
+      "location": "Portogallo",
+      "labels":["angular","typescript", "RxJs", "Material UI"],
+      "text": "Focus sulle diverse strategie disponibili per lo sviluppo di form in Angular tramite l'utilizzo del modulo dedicato Angular Forms",
+      "list":["per la UI impiego dei componenti Angular Material","sviluppo di form sia con metodo template-driven che con appoccio reattivo (reactive forms)"],
+      "new":true
+    },
+    {
+      "id": -1,
+      "topic": "development",
+      "file": "img/certificates/2023-certificate-udemy-angular-Router-calderaro.jpg",
+      "title": "angular router in depth",
+      "subtitle":"Udemy",
+      "dates":[
+        {"ore":"5"},
+        {"conseguito":"2023.07"}
+      ],
+      "location": "Portogallo",
+      "labels":["angular","typescript", "RxJs", "Material UI"],
+      "text": "Focus sulle diverse strategie disponibili per lo sviluppo di form in Angular tramite l'utilizzo del modulo dedicato Angular Forms",
+      "list":["per la UI impiego dei componenti Angular Material","sviluppo di form sia con metodo template-driven che con appoccio reattivo (reactive forms)"],
+      "new":true
+    },
+    {
+      "id": 0,
+      "topic": "development",
+      "file": "img/certificates/2023-certificate-udemy-angular-Reactive-Design-calderaro.jpg",
+      "title": "reactive angular course",
+      "subtitle":"Udemy",
+      "dates":[
+        {"ore":"6"},
+        {"conseguito":"2023.08"}
       ],
       "location": "Portogallo",
       "labels":["angular","typescript", "RxJs", "Material UI"],
