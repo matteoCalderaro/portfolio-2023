@@ -52,32 +52,36 @@
       "topic": "development",
       "file": "img/certificates/2023-certificate-udemy-angular-Router-calderaro.jpg",
       "title": "angular router in depth",
-      "subtitle":"Udemy",
-      "dates":[
-        {"ore":"5"},
-        {"conseguito":"2023.07"}
-      ],
+      "subtitle": "Udemy",
+      "dates": [{ "ore": "5" }, { "conseguito": "2023.07" }],
       "location": "Portogallo",
-      "labels":["angular","typescript", "RxJs", "Material UI"],
-      "text": "Focus sulle diverse strategie disponibili per lo sviluppo di form in Angular tramite l'utilizzo del modulo dedicato Angular Forms",
-      "list":["per la UI impiego dei componenti Angular Material","sviluppo di form sia con metodo template-driven che con appoccio reattivo (reactive forms)"],
-      "new":true
+      "labels": ["angular", "typescript", "RxJs", "Material UI"],
+      "text": "Focus sulle diverse strategie disponibili per la creazione di UI in stile Single Page Applications tramite l'utilizzo del modulo dedicato Angular Router",
+      "list": [
+        "lazy loading",
+        "data pre-fetching con Resolvers",
+        "rotte protette",
+        "rotte ausiliarie (secondary outlets)",
+        "query parameters"
+      ],
+      "new": true
     },
     {
       "id": 0,
       "topic": "development",
       "file": "img/certificates/2023-certificate-udemy-angular-Reactive-Design-calderaro.jpg",
       "title": "reactive angular course",
-      "subtitle":"Udemy",
-      "dates":[
-        {"ore":"6"},
-        {"conseguito":"2023.08"}
-      ],
+      "subtitle": "Udemy",
+      "dates": [{ "ore": "6" }, { "conseguito": "2023.08" }],
       "location": "Portogallo",
-      "labels":["angular","typescript", "RxJs", "Material UI"],
-      "text": "Focus sulle diverse strategie disponibili per lo sviluppo di form in Angular tramite l'utilizzo del modulo dedicato Angular Forms",
-      "list":["per la UI impiego dei componenti Angular Material","sviluppo di form sia con metodo template-driven che con appoccio reattivo (reactive forms)"],
-      "new":true
+      "labels": ["angular", "typescript", "RxJs", "Material UI"],
+      "text": "Modelli di progettazione comunemente usati (e alcuni anti-pattern) per lo sviluppo di applicazioni in stile Reactive con il solo utilizzo della libreria RxJs senza l'impiego di uno state manager dedicato",
+      "list": [
+        "stateless observable services",
+        "statefull components with RxJs subjects and BehaviorSubject",
+        "lightweight RxJs stores"
+      ],
+      "new": true
     },
     {
       "id": 1,
