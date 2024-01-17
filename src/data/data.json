@@ -11,7 +11,7 @@
       "labels": ["angular", "typescript", "RxJs", "Material UI"],
       "text": "Utilizzo della libreria Angular Material. Implementazione di una suite di componenti, da quelli più comunemente usati sino a quelli più avanzati come Drag & Drop e Virtual scrolling.",
       "list": [
-        "form controls and button",
+        "form controls and buttons",
         "data tables",
         "responsive breakpoint observers",
         "custom themes",
