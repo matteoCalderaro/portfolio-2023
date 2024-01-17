@@ -254,8 +254,8 @@ body {
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
-  background-color: var(--color-primary);
-  color: #333;
+  background-color: var(--color-red);
+  color: var(--color-primary);
   padding: 0.8rem 5.2rem;
   position: absolute;
   top: 5%;

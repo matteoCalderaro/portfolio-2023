@@ -19,13 +19,13 @@ const HeadingCombo = ({ counter, stopToCount }) => {
   useEffect(() => {
     intervalID.current = setInterval(() => {
       // if (value < 700 && !counter) {
-      if (value < 700) {
+      if (value < 1000) {
         //console.log('Set Interval');
         setValue((value) => value + 1);
       } else {
         //console.log('Clear Interval');
         clearInterval(intervalID.current);
-        stopToCount(700);
+        stopToCount(1000);
         //setPlus('+');
         intervalID.current = null;
       }
