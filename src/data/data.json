@@ -1,7 +1,7 @@
 {
   "certificates": [
     {
-      "id": -5,
+      "id": -6,
       "topic": "development",
       "file": "img/certificates/2023-certificate-udemy-angular-material-calderaro.jpg",
       "title": "angular material in depth",
@@ -20,6 +20,25 @@
       "new": true
     },
     {
+      "id": -5,
+      "topic": "development",
+      "file": "img/certificates/2023-certificate-udemy-angular-NgRx-calderaro.jpg",
+      "title": "NgRx - The Complete Guide",
+      "subtitle": "Udemy",
+      "dates": [{ "ore": "7" }, { "conseguito": "2023.10" }],
+      "location": "Portogallo",
+      "labels": ["angular", "typescript", "RxJs", "NgRX"],
+      "text": "Utilizzo della libreria NgRx e del suo ecosistema per la gestione centralizzata dello stato dell'applicazione.",
+      "list": [
+        "NgRx Data",
+        "Store",
+        "Effects",
+        "Router Store",
+        "NgRx Entity",
+        ". . ."
+      ]
+    },
+    {
       "id": -4,
       "topic": "development",
       "file": "img/certificates/2023-certificate-udemy-angular-Reactive-Design-calderaro.jpg",
@@ -28,7 +47,7 @@
       "dates": [{ "ore": "6" }, { "conseguito": "2023.08" }],
       "location": "Portogallo",
       "labels": ["angular", "typescript", "RxJs", "Material UI"],
-      "text": "Modelli di progettazione comunemente usati (e alcuni anti-pattern) per lo sviluppo di applicazioni in stile Reactive con il solo utilizzo della libreria RxJs senza l'impiego di uno state manager dedicato",
+      "text": "Pattern e anti-pattern per lo sviluppo di applicazioni in stile Reactive con il solo utilizzo della libreria RxJs senza l'impiego di uno state manager dedicato",
       "list": [
         "stateless observable services",
         "statefull components with RxJs subjects and BehaviorSubject",
